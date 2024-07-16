@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --main-color: #e1b67c;
+    --main-navy: #ededf6;
+    --main-navyDarker: #dddde0;
+    --main-item-color: #ffffff;
+    --main-border: #efaa20;
+    --main-text: #000000;
+    --cardBg: #ffffff80;
+    --main-text-reverse: #ffffff;
+    --bg-item: #f6f6f6;
+    --text-gray: #2e2e2eba;
+    --button-gray: #a2a2a280;
+    --color-gradient: linear-gradient(135deg, #6fffcb 0%, #3813c2 100%);
+    --yellowWhite: #000000;
+    --clockBg: #ededf6;
+  }
+  .dark {
+    /* Add dark theme colors  */
+    --main-navy: #151521;
+    --main-navyDarker: #11111b;
+    --main-item-color: #1e1e2d;
+    --main-border: #2b2b40;
+    --main-text: #ffffff;
+    --main-text-reverse: #000000;
+    --cardBg: rgba(47, 46, 70, 0.5);
+    --bg-item: #2b2b40;
+    --text-gray: #ffffff4d;
+    --button-gray: #d9d9d980;
+    --color-gradient: linear-gradient(
+      135deg,
+      rgba(111, 255, 203, 0.6) 0%,
+      rgba(56, 19, 194, 0.6) 100%
+    );
+    --yellowWhite: #efaa20;
+    --clockBg: #414162;
+  }
